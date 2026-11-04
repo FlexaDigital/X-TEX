@@ -132,17 +132,17 @@ export const initialStoryConfig: StoryConfig = {
   heroTitle: "hiiiiiii babeeeee!! 💖✨",
   heroSubtitle: "Today is all about you. Ready for a little journey through our favorite moments?",
   heroButtonText: "Click to start 💌",
-  heroImageUrl: "/public/assets/aistudio/WhatsApp_Image_2026-11-04_at_3.36.06_PM_cb4da4aa.jpeg",
+  heroImageUrl: "/assets/aistudio/WhatsApp_Image_2026-11-04_at_3.36.06_PM_cb4da4aa.jpeg",
 
   storyDate: "March 2026",
   storyHeading: "The Day You Changed My World",
   storyText: "MNE HJI E DIVAS YAAD CHHE JYARE TU OFFICE AAVI HTI ANE HU BAAR GYO HTO, KALAK PACHI HU AVVYO AND TU SOFA PR BETHI HTI TYARE ME TNE HASTA JOIIII!!! BAS TYAA J HU PIGDI GYO MNE BADHE J TU DEKHAVA LAGI, HUU SUU KAV KEVA MA TO LIVE KAIS JO KE KIDHU J CHHE PN TOY KAIS, E PACHIII EK RAAT EVI NATHI K TNE YAAD NA KRI  HOY TARU FACE NAA DEKHAYU HOY E HASTU FACE, E J MARU MOTIVATION HTU MENIFEST KRVANU, THEN AAPDI VAAT START THAIII 9 MARCH E J DIVS HTO MARI LIFE AAKHI BADLAI GAI, TU AAVI MARI LIFE MA E MARI LIFE NO BEST PART CHHEE",
-  storyImageUrl: "/public/assets/aistudio/WhatsApp_Image_2026-11-04_at_3.36.06_PM_cb4da4aa.jpeg",
+  storyImageUrl: "/assets/aistudio/WhatsApp_Image_2026-11-04_at_3.36.06_PM_cb4da4aa.jpeg",
 
   // Why I Fell In Love With You
   fallInLoveHeading: "Why I Fell In Love With You",
   fallInLoveSubtitle: "It wasn't just one single moment — it was a thousand gentle everyday wonders",
-  fallInLoveImageUrl: "/public/assets/aistudio/PAGE-3_6f97d9db.jpeg",
+  fallInLoveImageUrl: "/assets/aistudio/PAGE-3_6f97d9db.jpeg",
   fallInLoveMoments: [
     {
       id: "fil-1",
@@ -250,7 +250,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "cozy_cafe",
-      imageUrl: "/public/assets/aistudio/WhatsApp_Image_2026-11-04_at_4.46.07_PM_be4e11ba.jpeg",
+      imageUrl: "/assets/aistudio/WhatsApp_Image_2026-11-04_at_4.46.07_PM_be4e11ba.jpeg",
       rotation: 0,
     },
     {
@@ -262,7 +262,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "sunset_picnic",
-      imageUrl: "/public/assets/aistudio/IMG-2_9c0c5d77.jpeg",
+      imageUrl: "/assets/aistudio/IMG-2_9c0c5d77.jpeg",
       rotation: 0,
     },
     {
@@ -274,7 +274,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "stargazing",
-      imageUrl: "/public/assets/aistudio/IMG-3_406a0bb9.jpeg",
+      imageUrl: "/assets/aistudio/IMG-3_406a0bb9.jpeg",
       rotation: 0,
     },
     {
@@ -286,7 +286,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "flowers",
-      imageUrl: "/public/assets/aistudio/IMG-4_54b324a5.jpeg",
+      imageUrl: "/assets/aistudio/IMG-4_54b324a5.jpeg",
       rotation: 0,
     },
     {
@@ -298,7 +298,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "roadtrip",
-      imageUrl: "/public/assets/aistudio/IMG-5_b882366b.jpeg",
+      imageUrl: "/assets/aistudio/IMG-5_b882366b.jpeg",
       rotation: 0,
     },
     {
@@ -310,7 +310,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "morning",
-      imageUrl: "/public/assets/aistudio/IMG-6_01f56917.jpeg",
+      imageUrl: "/assets/aistudio/IMG-6_01f56917.jpeg",
       rotation: 0,
     },
     {
@@ -322,7 +322,7 @@ export const initialStoryConfig: StoryConfig = {
       tag: "",
       location: "",
       imageFallbackType: "fall_in_love",
-      imageUrl: "/public/assets/aistudio/IMG-7_66c3e2c9.jpeg",
+      imageUrl: "/assets/aistudio/IMG-7_66c3e2c9.jpeg",
       rotation: 0,
     },
   ],
@@ -336,19 +336,19 @@ export const initialStoryConfig: StoryConfig = {
     curiosityQuestion: "Curious to peek into our future? 💍👶",
     teaserText: "A secret vision of what is waiting for us ahead",
     buttonText: "Reveal Our Future",
-    imageUrl: "/public/assets/aistudio/IMG-8_6eecd377.jpeg",
+    imageUrl: "/assets/aistudio/IMG-8_6eecd377.jpeg",
     isUnlocked: false,
 
     photo8Title: "Our Wedding Day: The Day We Say 'I Do' 💍",
     photo8Teaser: "This photo is locked behind curiosity. Click to reveal our sacred promise and the beginning of our forever.",
     photo8ButtonText: "Click to Reveal 💍",
-    photo8ImageUrl: "/public/assets/aistudio/IMG-8_6eecd377.jpeg",
+    photo8ImageUrl: "/assets/aistudio/IMG-8_6eecd377.jpeg",
     isUnlocked8: false,
 
     photo9Title: "Our Little Family & Tomorrow 👶✨",
     photo9Teaser: "This photo is locked behind curiosity. Click to reveal a sunset glimpse of us with our sweet little child.",
     photo9ButtonText: "Click to Reveal 👶",
-    photo9ImageUrl: "/public/assets/aistudio/IMG-9_0b06cbb2.jpeg",
+    photo9ImageUrl: "/assets/aistudio/IMG-9_0b06cbb2.jpeg",
     isUnlocked9: false,
   },
 
@@ -405,7 +405,7 @@ export const initialStoryConfig: StoryConfig = {
   letterSignoff: "I love you endlessly, always and forever 💌",
 };
 
-const STORAGE_KEY = "romantic_birthday_story_v9";
+const STORAGE_KEY = "romantic_birthday_story_v10";
 
 export function getStoredStoryConfig(): StoryConfig {
   try {

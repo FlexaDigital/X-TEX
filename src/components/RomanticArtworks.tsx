@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { resolveImageUrl } from '../utils/imagePath';
 
 interface RomanticImageProps {
   src?: string;
@@ -447,7 +448,7 @@ export const RomanticImage: React.FC<RomanticImageProps> = ({ src, alt, fallback
   return (
     <div className={`relative overflow-hidden w-full h-full ${className}`}>
       <img
-        src={src}
+        src={resolveImageUrl(src)}
         alt={alt}
         referrerPolicy="no-referrer"
         onError={() => setLoadError(true)}

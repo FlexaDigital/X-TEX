@@ -274,7 +274,7 @@ export const UnifiedGallerySlide: React.FC<UnifiedGallerySlideProps> = ({
                   <div>
                     <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden bg-[#FAF5FF] border-2 border-[#F8B4C8]">
                       <RomanticImage
-                        src={futureVision.photo8ImageUrl || "/public/assets/aistudio/IMG-8_6eecd377.jpeg"}
+                        src={futureVision.photo8ImageUrl || "/assets/aistudio/IMG-8_6eecd377.jpeg"}
                         alt="Our Wedding"
                         fallbackType="future_wedding_child"
                         className="w-full h-full object-cover"
@@ -340,7 +340,7 @@ export const UnifiedGallerySlide: React.FC<UnifiedGallerySlideProps> = ({
                   <div>
                     <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden bg-[#FAF5FF] border-2 border-[#F8B4C8]">
                       <RomanticImage
-                        src={futureVision.photo9ImageUrl || "/public/assets/aistudio/IMG-9_0b06cbb2.jpeg"}
+                        src={futureVision.photo9ImageUrl || "/assets/aistudio/IMG-9_0b06cbb2.jpeg"}
                         alt="Our Little Family"
                         fallbackType="future_wedding_child"
                         className="w-full h-full object-cover"

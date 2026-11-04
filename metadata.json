@@ -1,0 +1,6 @@
+{
+  "name": "Our Story - Happy Birthday My Love",
+  "description": "A modern, deeply romantic interactive digital storybook and presentation-style birthday website with memory polaroids, milestone counters, ambient music, and love letter envelope.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

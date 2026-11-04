@@ -13,9 +13,11 @@ import { MilestoneSlide } from './components/slides/MilestoneSlide';
 import { LifetimeSlide } from './components/slides/LifetimeSlide';
 import { LetterSlide } from './components/slides/LetterSlide';
 import { PersonalizeModal } from './components/PersonalizeModal';
-import { ChevronUp, ChevronDown, Camera } from 'lucide-react';
+import { AuthenticationGate, isUserAuthenticated, lockUserAccess } from './components/AuthenticationGate';
+import { ChevronUp, ChevronDown, Camera, Lock } from 'lucide-react';
 
 export default function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => isUserAuthenticated());
   const [config, setConfig] = useState<StoryConfig>(getStoredStoryConfig());
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPersonalizeOpen, setIsPersonalizeOpen] = useState(false);
@@ -182,6 +184,10 @@ export default function App() {
     saveStoredStoryConfig(updated);
   };
 
+  if (!isAuthenticated) {
+    return <AuthenticationGate onAuthenticated={() => setIsAuthenticated(true)} />;
+  }
+
   return (
     <div className="relative w-screen h-screen overflow-hidden bg-[#FFFDFE] text-[#4A2E68] select-none">
       {/* Romantic ambient canvas with pastel orbs and floating heart particles */}
@@ -210,8 +216,21 @@ export default function App() {
           <span>{slideLabels[currentSlide]}</span>
         </div>
 
-        {/* Zone 3: Settings / Photo Uploads & Music Toggle */}
+        {/* Zone 3: Settings / Photo Uploads, Lock & Music Toggle */}
         <div className="pointer-events-auto flex items-center gap-2">
+          <button
+            onClick={() => {
+              lockUserAccess();
+              setIsAuthenticated(false);
+            }}
+            title="Lock website"
+            aria-label="Lock confidential website"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-white/80 backdrop-blur-md border border-[#E6E0FA] text-[#7E52A0] hover:text-rose-600 hover:bg-rose-50 transition-all shadow-xs cursor-pointer"
+          >
+            <Lock className="w-3.5 h-3.5 text-[#E87A90]" />
+            <span className="hidden sm:inline">Lock 🔒</span>
+          </button>
+
           <button
             onClick={() => setIsPersonalizeOpen(true)}
             aria-label="Settings and photo uploads"
